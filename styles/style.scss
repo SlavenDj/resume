@@ -1,0 +1,9 @@
+@import "generals.scss", "header.scss", "print-mode.scss", "colos.scss";
+
+.qr-code-only-print {
+    margin: 0;
+    img {
+        display: none;
+        width: 0;
+    }
+}

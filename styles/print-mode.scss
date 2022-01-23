@@ -1,0 +1,20 @@
+@media print {
+    .qr-code-only-print img {
+        display: block;
+        width: 2.5cm;
+    }
+
+    a {
+        text-decoration: none;
+
+        &:not(.print-visible) {
+            color: transparent;
+            width: 0;
+        }
+
+        &::before {
+            content: attr(data-short-link);
+            color: black;
+        }
+    }
+}

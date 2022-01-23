@@ -1,0 +1,25 @@
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", Courier, monospace;
+}
+
+body {
+    max-width: 870px;
+    margin: 0 auto;
+}
+a {
+    color: var(--text-color-link);
+    &:hover {
+        text-decoration-style: dashed;
+    }
+}
+
+ul {
+    list-style: none;
+}

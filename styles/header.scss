@@ -1,0 +1,20 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+    h1 {
+        font-weight: normal;
+        text-transform: uppercase;
+    }
+    hr {
+        width: 100%;
+    }
+
+    p {
+        font-size: 1.5rem;
+        letter-spacing: 0.05rem;
+    }
+}
